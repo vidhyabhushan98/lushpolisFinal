@@ -38,7 +38,7 @@ require('./routes/product.route')(app);
 const server = require('http').createServer(app);
   const io = require('socket.io')(server, {
     cors: {
-      origin: ['https://lush-polis-frontend-lwoam8w78-tejab-2610s-projects.vercel.app/'],
+      origin: ['https://lushpolis-xg05.onrender.com'],
       //methods: ['GET', 'POST']
     }
   })
