@@ -1,0 +1,98 @@
+.health-assessment-container {
+  text-align: center;
+  padding: 20px;
+}
+.disease-item {
+  border: 1px solid #ddd; 
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 2px 2px 5px #ddd;
+  width: calc(80% - 1px); 
+  background-color: #f5f5f5;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.disease-image-preview {
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: contain;
+  margin-top: 20px;
+}
+
+.disease-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.disease-suggestions{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.disease-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.disease-probability {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.health-assessment-results-container {
+  margin-top: 20px;
+  display: vertical-align;
+  /* flex-wrap: wrap;
+  justify-content: space-around; */
+}
+
+.disease-suggestions {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .disease-suggestions {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .disease-suggestions {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+/* .disease-item:hover {
+  transform: scale(1.05);
+} */
+
+.Health-assessment-button {
+  margin-top: 20px;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.Health-assessment-button:hover {
+  background-color: #45a049;
+}
+
+.disease-p {
+  margin-top: 10px;
+}
+
+.no-plant-alert {
+  color: red;
+}

@@ -1,0 +1,377 @@
+/* FileUpload.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+
+/* Header Styles */
+/* Navigation Styles */
+
+/* Add margin to the "Plant Identification" button */
+
+
+/* Main Content Styles */
+
+.plant-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.plant-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.plant-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.plant-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
+
+.plant-info {
+  padding: 10px;
+}
+
+.selected-plant-image {
+  max-width: auto; /* Maintain the aspect ratio, adjusting only the width */
+  max-height: 300px; /* Set a specific maximum height */
+  display: block; /* Center the image horizontally */
+  margin: 0 auto; /* Center the image horizontally */
+  padding: 2px; /* Add padding to all sides */
+  border: 5px solid #0a653e; /* Highlight the border with green color */
+}
+
+.selected-plant-details {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+.plant-button-like {
+  /* Styles for the "Choose a File" button */
+  background-color: green;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.plant-button-like-selected {
+  /* Styles for the "File Selected" button */
+  background-color: #11a992; /* You can use a different color or style here */
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.plant-response{
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  color : green;
+}
+
+/* More Details Button */
+.plant-moredetails {
+  background-color: green;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.plant-moredetails:hover {
+  background-color: #fff;
+  color : #1f8b26;
+  border :rgba(0, 0, 0, 0.1)
+}
+
+/* Care Guide and FAQ Buttons Styles */
+.plant-careguide{
+  background-color: green;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.plant-faq {
+  background-color: green;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.plant-careguide:hover{
+  background-color: #fff;
+  color : #1f8b26;
+  border :rgba(0, 0, 0, 0.1)
+}
+
+.plant-faq:hover{
+  background-color: #fff;
+  color : #1f8b26;
+  border :rgba(0, 0, 0, 0.1)
+}
+/* FileUpload.css */
+
+/* ... (previous styles) */
+
+/* Choose File Button Styles */
+
+
+.plant-button-like:hover {
+  background-color: #2aa732;
+}
+
+/* Submit Button Styles */
+.plant-fileupload-button   {
+  display: block;
+  padding: 12px 38px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: var(--blue);
+  background-color: #21bf24;
+  border: 2px solid var(--blue);
+  border-radius: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%; 
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  
+}
+.plant-moredetails{
+  display: block;
+  padding: 12px 38px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: var(--blue);
+  background-color: #21bf24;
+  border: 2px solid var(--blue);
+  border-radius: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 80%; 
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  
+}
+
+.plant-faq{
+  display: block;
+  padding: 12px 38px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: var(--blue);
+  background-color: #21bf24;
+  border: 2px solid var(--blue);
+  border-radius: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 80%; 
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  
+}
+.plant-careguide{
+  display: block;
+  padding: 12px 38px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: var(--blue);
+  background-color: #21bf24;
+  border: 2px solid var(--blue);
+  border-radius: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 80%; 
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  
+}
+.plant-back{
+  display: block;
+  padding: 12px 38px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: var(--blue);
+  background-color: #21bf24;
+  border: 2px solid var(--blue);
+  border-radius: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 10%; 
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.plant-fileupload-button:hover    {
+  color: #52ab35;
+  background-color: var(--lgt-blue);
+  border-color: var(--lgt-blue);
+  transform: translateY(-2px); 
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); 
+  
+}
+.plant-faq:hover{
+  color: #52ab35;
+  background-color: var(--lgt-blue);
+  border-color: var(--lgt-blue);
+  transform: translateY(-2px); 
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); 
+  
+}
+.plant-careguide:hover{
+  color: #52ab35;
+  background-color: var(--lgt-blue);
+  border-color: var(--lgt-blue);
+  transform: translateY(-2px); 
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); 
+  
+}
+.plant-moredetails:hover{
+  
+    color: #52ab35;
+    background-color: var(--lgt-blue);
+    border-color: var(--lgt-blue);
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.faq-loading {
+  color : green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh; /* Center vertically in the viewport */
+}
+
+.careguide-loading {
+  color : green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh; /* Center vertically in the viewport */
+}
+/* ... (previous styles) */
+
+.close-careguide{
+  background-color: #1b9f24;
+  color: #fff;
+  padding: 10px 20px;
+  border: #333;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+  display: block;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width : 100%;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.close-careguide:hover {
+  background-color: #fff;
+  color : #1f8b26;
+  border :rgba(0, 0, 0, 0.1)
+}
+
+.close-faq{
+  background-color: #1b9f24;
+  color: #fff;
+  padding: 10px 20px;
+  border: #333;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+  display: block;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width : 100%;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.close-faq :hover {
+  background-color: #fff;
+  color : #1f8b26;
+  border :rgba(0, 0, 0, 0.1)
+}
+
+.close-more-details{
+  background-color: #1b9f24;
+  color: #fff;
+  padding: 10px 20px;
+  border: #333;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+  display: block;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width : 100%;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.close-more-details :hover{
+  background-color: #fff;
+  color : #1f8b26;
+  border :rgba(0, 0, 0, 0.1)
+}

@@ -1,0 +1,394 @@
+
+.profile-pic {
+    width: 60px; /* Adjust the size as needed */
+    height: 60px; /* Adjust the size as needed */
+    object-fit: cover; 
+}
+
+.author-info {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+
+.rounded-circle {
+    border-radius: 50%; 
+}
+
+.exploretopcat{
+    font-family: 'shone','Times New Roman', 'shone';
+}
+
+.hashtags {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.hashtags h3 {
+    font-size: 20px;
+}
+
+.hashtags ul {
+    list-style: none;
+    padding: 0;
+}
+
+.hashtags li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+
+
+.blog-title{
+    font-size: 20px !important;
+    font-weight: bold;
+    font-family: 'sohne';
+    color: #242424;
+    margin-bottom: 0 !important;
+}
+
+.blog-summary{
+    font-size: 10px;
+    color: #6B6B6B;
+    font-family: 'sohne';
+    margin-bottom: 0 !important;
+}
+
+/* Style the profile picture */
+.profile-pic {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+/* Style the author information container */
+.author-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Style the user info container */
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+/* Style the author name link */
+.author-link {
+    font-weight: bold;
+    color: #242424;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Style the follow link */
+.follow-link {
+    color: #6B6B6B;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-left: 8px; /* Add space between the name and "Follow" */
+}
+
+/* Style the separator */
+.separator {
+    color: #6B6B6B;
+    font-size: 14px;
+    margin: 0 8px;
+}
+
+/* Style the "Published in" text */
+.published-in {
+    font-size: 16px;
+    color: #242424;
+}
+
+/* Style the publication link */
+.publication-link {
+    
+    color: black;
+    text-decoration: none;
+}
+
+/* Style the read time and publish date */
+.read-time, .publish-date {
+    font-size: 16px;
+    color: #6B6B6B;
+}
+
+.mt-4{
+    margin-top: 1.5rem!important;
+    padding-top: 3rem!important;
+}
+
+/* Custom CSS for styling */
+
+/* Style for blog cards */
+.card {
+    margin-bottom: 20px;
+    border: none;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Add a subtle shadow */
+}
+
+/* Style for card images */
+.card .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.toppost-img-fluid{
+    max-width: 100% !important;
+    height: 450px !important;
+    object-fit: cover;
+}
+
+/* Style for card titles */
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Style for More Blogs section container */
+.more-blogs-container {
+    max-height: 400px; /* Set the desired maximum height */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    /* border: 1px solid #e5e5e5; Add a border for the container */
+    padding: 10px;
+    /* Styling for scrollbar */
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f7f7f7;
+}
+
+/* Style for scrollbar track */
+.more-blogs-container::-webkit-scrollbar {
+    width: 6px; /* Set the width of the scrollbar track */
+}
+
+/* Style for scrollbar thumb (the draggable part) */
+.more-blogs-container::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar thumb */
+}
+
+/* Style for scrollbar thumb on hover */
+.more-blogs-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color of the scrollbar thumb on hover */
+}
+
+
+
+/* Additional styling can be added as needed */
+
+
+@media (min-width: 992px){
+.col-lg-4 {
+    flex: 0 0 auto;
+    padding-top: 16rem;
+    width: 33.33333333%;
+}
+}
+
+
+/* Style for Blog Information */
+.col-md-6 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.col-md-6 h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.col-md-6 p {
+    font-size: 1rem;
+}
+
+/* Style for Small Partitions */
+.col-md-6 .row mb-3 img,
+.col-md-6 .row img {
+    max-width: 100%;
+    height: auto;
+}
+
+.col-md-6 h4 {
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+/* Additional Styles for Navbar (optional) */
+.navbar-brand img {
+    max-height: 100%;
+}
+
+.Navbar_logo__dYWXu {
+    max-height: 30px; /* Adjust as needed */
+}
+
+/* Optional: Add padding to the container for better spacing */
+.container.marketing {
+    padding-top: 100px; /* Adjust as needed */
+}
+
+
+/* Style for Small Partitions */
+.col-md-6 .row mb-3 img,
+.col-md-6 .row img {
+    width: 271px; /* Set a fixed width */
+    height: 174px; /* Set a fixed height */
+    object-fit: cover; /* This ensures the image covers the specified dimensions */
+}
+
+/* Style for Blog Cards Section */
+.mb-4 {
+    text-align: center; /* Center the heading */
+}
+
+.card-group {
+    display: flex;
+    flex-wrap: nowrap; /* Ensure the cards stay in a single row */
+    overflow-x: none; /* Enable horizontal scrolling */
+    gap: 1rem; /* Adjust the space between cards */
+    padding-bottom: 1rem; /* Add some space at the bottom */
+}
+
+.card {
+    max-width: 18rem; /* Set a maximum width for the cards */
+    flex: 0 0 auto; /* Allow the cards to grow and shrink */
+}
+
+.card img {
+    max-height: 150px; /* Set a maximum height for the images */
+}
+
+.card-title {
+    font-size: 1.25rem; /* Increase the font size of the title */
+}
+
+
+
+
+/* Style for the container with scrollbar */
+.overflow-auto {
+    max-height: 300px; /* Set a maximum height for the container */
+    overflow-y: scroll; /* Enable vertical scrolling */
+}
+
+/* Style for the scrollbar */
+::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+}
+
+/* Track style */
+::-webkit-scrollbar-track {
+    background-color: #f9f9f9; /* Set the background color of the track */
+}
+
+/* Handle style */
+::-webkit-scrollbar-thumb {
+    background-color: #888; /* Set the color of the handle */
+    border-radius: 6px; /* Optional: Add rounded corners to the handle */
+}
+
+/* Handle on hover style */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Set the color of the handle on hover */
+}
+
+
+
+/* css code for other section */
+/* Reset some default styles */
+
+li{
+    list-style: none;
+}
+
+
+
+.horizontal-media-scroller {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 0.5rem 0;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 0 1rem;
+}
+
+.horizontal-media-scroller li {
+    flex: 0 0 auto;
+}
+
+.horizontal-media-scroller figure {
+    margin: 0;
+    cursor: pointer;
+}
+
+.horizontal-media-scroller a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.section-img {
+    height: 200px !important;
+    width: 350px !important;
+    object-fit: cover;
+    background: radial-gradient(circle at 10% 20%, rgb(161, 255, 206) 0%, rgb(250, 255, 209) 90%);
+}
+
+.horizontal-media-scroller img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    background: radial-gradient(circle at 10% 20%, rgb(161, 255, 206) 0%, rgb(250, 255, 209) 90%);
+}
+
+/* Style very thin scrollbar with the same gradient color for webkit-based browsers */
+.horizontal-media-scroller::-webkit-scrollbar {
+    height: 0.3rem; /* Adjust the width as desired */
+}
+
+.horizontal-media-scroller::-webkit-scrollbar-thumb {
+    /* background: linear-gradient(109.6deg, rgba(98, 210, 141, 0.88) 11.2%, rgba(234, 245, 45, 0.79) 88%); */
+    border-radius: 3px; /* Adjust the border radius for a thinner scrollbar */
+}
+
+/* Style for the "Soil improvement" title */
+.soil-title {
+    display: inline-block; /* Display as inline block */
+    margin: 0; /* Remove default margin */
+    vertical-align: middle; /* Vertically align with button */
+}
+
+/* Style for the "See More" button */
+.see-more-btn {
+    display: inline-block; /* Display as inline block */
+    margin: 0; /* Remove default margin */
+    vertical-align: middle; /* Vertically align with title */
+    margin-left: 10px; /* Add spacing between title and button */
+    float: right;
+}
+
+.see-more-btn22 {
+    display: inline-block; /* Display as inline block */
+    margin: 0; /* Remove default margin */
+    vertical-align: middle; /* Vertically align with title */
+    margin-left: 10px; /* Add spacing between title and button */
+    float: left;
+}
+
+
+.padno{
+    padding: 0px !important;
+    margin-top: 5rem;
+}
+
+.card{
+    max-width: none;
+}

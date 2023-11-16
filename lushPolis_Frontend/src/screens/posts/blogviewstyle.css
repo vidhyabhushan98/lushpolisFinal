@@ -1,0 +1,301 @@
+.profile-pic1 {
+    width: 60px; /* Adjust the size as needed */
+    height: 60px; /* Adjust the size as needed */
+    object-fit: cover; 
+}
+
+.author-info1 {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+/* Custom CSS for styling */
+
+/* Style for blog cards */
+.card {
+    margin-bottom: 20px;
+    border: none;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Add a subtle shadow */
+}
+.paddingcomment{
+    padding: 10px;
+
+}
+.mt-4{
+    margin-top: 1.5rem!important;
+    padding-top: 3rem!important;
+}
+/* Style for card images */
+.card .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for card titles */
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.rounded-circle1 {
+    border-radius: 50%; 
+}
+/* Style for More Blogs section container */
+.more-blogs-container {
+    max-height: 400px; /* Set the desired maximum height */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    /* border: 1px solid #e5e5e5; Add a border for the container */
+    padding: 10px;
+    /* Styling for scrollbar */
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f7f7f7;
+}
+
+/* Style for scrollbar track */
+.more-blogs-container::-webkit-scrollbar {
+    width: 6px; /* Set the width of the scrollbar track */
+}
+
+/* Style for scrollbar thumb (the draggable part) */
+.more-blogs-container::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar thumb */
+}
+
+/* Style for scrollbar thumb on hover */
+.more-blogs-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color of the scrollbar thumb on hover */
+}
+.container222{
+    margin-top: 2rem;
+    
+}
+.blogbackground1{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.hashtags {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.hashtags h3 {
+    font-size: 20px;
+}
+
+.hashtags ul {
+    list-style: none;
+    padding: 0;
+}
+
+.hashtags li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+
+
+.blog-title1{
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: -0.011em;
+    line-height: 52px;
+    font-size: 42px;
+    font-weight: 500;
+    font-style: normal;
+    color: #242424;
+    font-size: 42px;
+    /* font-weight: bold;
+    line-height: 1.3;
+    font-family: 'sohne';
+    margin-bottom: 0.5rem;
+    color: #242424; */
+
+}
+
+
+.tagsggs {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	gap: 1rem;
+}
+
+.tagggs{
+	--color: var(--light-color);
+	font-family: var(--regular-font);
+	font-size: 1rem;
+	border-radius: 100rem;
+	box-shadow: 0 0 0 2px var(--light-color);
+	background-color: transparent;
+	color: var(--dark-color);
+	font-weight: bold;
+	
+}
+
+.blog-summary1{
+    font-size: 28px;
+    color: #6B6B6B;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 1rem;
+}
+
+/* Style the profile picture */
+.profile-pic1 {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.centerimagggggg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+
+/* Style the author information container */
+.author-info1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Style the user info container */
+.user-info1 {
+    display: flex;
+    align-items: center;
+}
+
+/* Style the author name link */
+.author-link1 {
+    font-weight: bold;
+    color: #242424;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Style the follow link */
+.follow-link1 {
+    color: #6B6B6B;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-left: 8px; /* Add space between the name and "Follow" */
+}
+
+/* Style the separator */
+.separator1 {
+    color: #6B6B6B;
+    font-size: 14px;
+    margin: 0 8px;
+}
+
+/* Style the "Published in" text */
+.published-in1 {
+    font-size: 16px;
+    color: #242424;
+}
+
+/* Style the publication link */
+.publication-link1 {
+    
+    color: black;
+    text-decoration: none;
+}
+
+/* Style the read time and publish date */
+.read-time1, .publish-date1 {
+    font-size: 16px;
+    color: #6B6B6B;
+}
+
+.mt-4{
+    margin-top: 1.5rem!important;
+    padding-top: 3rem!important;
+}
+
+/* Custom CSS for styling */
+
+/* Style for blog cards */
+.card1 {
+    margin-bottom: 20px;
+    border: none;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Add a subtle shadow */
+}
+
+/* Style for card images */
+.card1 .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for card titles */
+.card-title1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Style for More Blogs section container */
+.more-blogs-container {
+    max-height: 600px!important; /* Set the desired maximum height */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    /* border: 1px solid #e5e5e5; Add a border for the container */
+    padding: 10px;
+    /* Styling for scrollbar */
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f7f7f7;
+}
+
+/* Style for scrollbar track */
+.more-blogs-container::-webkit-scrollbar {
+    width: 6px; /* Set the width of the scrollbar track */
+}
+
+/* Style for scrollbar thumb (the draggable part) */
+.more-blogs-container::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar thumb */
+}
+
+/* Style for scrollbar thumb on hover */
+.more-blogs-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color of the scrollbar thumb on hover */
+}
+
+.content1{
+    font-size: 20px;
+    line-height: 32px;
+    word-break: break-word;
+    font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-weight: 400;
+    letter-spacing: -0.003em;
+    color: #242424;
+}
+
+/* Additional styling can be added as needed */
+
+
+@media (min-width: 992px){
+.col-lg-4 {
+    flex: 0 0 auto;
+    padding-top: 16rem;
+    width: 33.33333333%;
+}
+}
+
+
+.f1{
+    width:100% !important;
+    border:#555555 solid 1px !important;
+    border-color: grey !important;
+}
+
+.timestamp-light-grey {
+    color: #888; /* Set the desired light grey color */
+    font-size: 14px; /* You can adjust the font size as needed */
+    /* Add any additional styling you want here */
+  }

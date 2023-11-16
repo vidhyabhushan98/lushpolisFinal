@@ -1,0 +1,304 @@
+/* PlantSearch.css */
+
+/* Styles for the main container */
+.search-plant {
+  max-width: 90%; /* Adjust this value as needed */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.form-control{
+  border-color: green !important;
+}
+/* Header and form styles */
+.Plant-h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.Plant-search-button {
+  background-color: #1f8b26;
+  color: #fff;
+  padding: 10px 20px;
+  border: #333;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+  display: block;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width : 97%;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.Plant-search-button:hover {
+  background-color: #fff;
+  color : #1f8b26;
+  border :rgba(0, 0, 0, 0.1)
+}
+
+/* Loading message styles */
+.search-plant p {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Plant details styles */
+.plant-details {
+  flex-direction: column; 
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5;
+}
+
+/* Style for labels (field names) */
+.plant-details p strong {
+  font-weight: bold;
+  text-align: left; /* Align field names to the left */
+}
+
+/* Style for values */
+.plant-details p {
+  margin: 0;
+  padding: 5px;
+  border: 1px solid #ccc; /* Add borders to cells */
+  border-radius: 5px;
+  background-color: #f5f5f5; /* Background color for cells */
+  text-align: left; /* Align values to the right */
+}
+
+
+/* Plant info styles */
+.plant-info {
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Display text fields in two columns */
+  gap: 10px; /* Gap between columns */
+}
+
+/* Adjust the width of text fields */
+.plant-info p {
+  margin: 0; /* Remove default margin */
+  word-wrap: break-word; /* Wrap extra text */
+}
+
+/* Display text fields in two columns */
+@media (min-width: 768px) {
+.plant-info {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px; /* Gap between columns */
+  }
+}
+/* Button container styles */
+
+
+/* Info button styles */
+.PlantApp .info-button {
+  background-color: #1f8b26;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.PlantApp .info-button:hover {
+  color: #2aa732;
+  background-color: #fff;
+}
+
+/* Modal styles (you can customize as needed) */
+.PlantApp .modal {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.PlantApp .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Close button styles */
+.PlantApp .close-button {
+  background-color: #ccc;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.PlantApp .close-button:hover {
+  background-color: #999;
+}
+
+.plant-top-center-image{
+    max-width: 500px; /* Maintain the aspect ratio, adjusting only the width */
+    max-height: 500px; /* Set a specific maximum height */
+    display: block; /* Center the image horizontally */
+    margin: 0 auto; /* Center the image horizontally */
+    padding: 2px; /* Add padding to all sides */
+    border: 5px solid #04461a; /* Highlight the border with green color */
+}
+
+.faq-loading {
+  color : green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh; /* Center vertically in the viewport */
+}
+
+.careguide-loading {
+  color : green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh; /* Center vertically in the viewport */
+}
+
+.PlantApp button:hover {
+  color: #52ab35;
+  background-color: var(--lgt-blue);
+  border-color: var(--lgt-blue);
+  transform: translateY(-2px); /* Add a slight upward shift on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Increase the shadow on hover */
+}
+
+.PlantApp button:active {
+  color: #fff;
+  background-color: var(--drk-blue);
+  border-color: var(--drk-blue);
+}
+
+.PlantApp button:focus {
+  outline: none;
+  box-shadow: 0 0 0 5px rgba(21, 156, 228, 0.4);
+}
+
+.PlantApp button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.open-careguide{
+  background-color: #1b9f24;
+  color: #fff;
+  padding: 10px 20px;
+  border: #333;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+  display: block;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width : 80%;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.open-careguide:hover {
+  background-color: #fff;
+  color : #1f8b26;
+  border :rgba(0, 0, 0, 0.1)
+}
+
+.open-faq {
+  background-color: #1b9f24;
+  color: #fff;
+  padding: 10px 20px;
+  border: #333;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+  display: block;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width : 80%;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.open-faq:hover {
+  background-color: #fff;
+  color : #1f8b26;
+  border :rgba(0, 0, 0, 0.1)
+}
+
+.close-careguide{
+  background-color: #1b9f24;
+  color: #fff;
+  padding: 10px 20px;
+  border: #333;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+  display: block;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width : 80%;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.close-careguide:hover {
+  background-color: #fff;
+  color : #1f8b26;
+  border :rgba(0, 0, 0, 0.1)
+}
+
+.close-faq{
+  background-color: #1b9f24;
+  color: #fff;
+  padding: 10px 20px;
+  border: #333;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+  display: block;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width : 80%;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.close-faq :hover {
+  background-color: #fff;
+  color : #1f8b26;
+  border :rgba(0, 0, 0, 0.1)
+}

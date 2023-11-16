@@ -1,0 +1,58 @@
+
+@media (max-width: 1550px) {
+    .Demo_demoCard__7kbhs {
+        transform: scale(.8);
+        margin-left: 1rem;
+    }
+    
+}
+
+@media (max-width: 1300px) {
+    .Demo_demoCard__7kbhs {
+        transform: scale(.66);
+        margin-left: 0.3rem;
+    }
+    
+}
+@media (max-width: 1100px) {
+    .Demo_demoCard__7kbhs {
+        transform: scale(.55);
+        margin-right: 1rem;
+    
+    }
+    
+}
+
+
+@media (max-width: 900px) {
+    .Demo_demoCard__7kbhs {
+        transform: scale(.46);
+    margin-right: 1rem;
+    
+    }
+    
+}
+
+.Demo_imgContainer__8WxwM{
+    display: flex;
+    justify-content: center;
+}
+
+.para{
+    font-size: 1.5rem;
+}
+    
+
+
+.Demo_demoDescription__VOYlz {
+    padding: 3rem 4rem;
+}   
+
+.Demo_demoCard__7kbhs {
+    background-color: #fff;
+    margin-left: 1.5rem;
+    width: 680px;
+    height: 680px;
+    border-radius: 57px;
+    filter: drop-shadow(15px 15px 15px #c8c8c88d);
+}

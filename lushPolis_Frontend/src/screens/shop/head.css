@@ -1,0 +1,36 @@
+.search-bar {
+    width: 40%;
+    border-color: 1px solid #ddd;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.sEA {
+        padding: 10px 20px;
+        border: none;
+        outline: none;
+
+        &[type="search"] {
+            font-size: 18px;
+            width: 80%;
+        }
+
+        &[type="button"] {
+            cursor: pointer;
+            background: green;
+            color: white;
+            padding-top: 12px;
+            font-size: 17px;
+            font-weight: 400;
+            transition: 0.3s;
+
+            &:hover {
+                background-color: greenyellow;
+            }
+        }
+}
+
+.icon{
+    width: 2rem;
+    height: 2rem;
+    margin: 1px;
+}

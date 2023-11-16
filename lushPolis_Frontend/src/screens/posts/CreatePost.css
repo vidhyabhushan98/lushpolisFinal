@@ -1,0 +1,9 @@
+/* CreatePost.css */
+.start-typing-text {
+    color: lightgray; /* Change the color as needed */
+  }
+  
+  /* Optional: Hide the text when the editor is focused */
+  #editor-container:focus .start-typing-text {
+    display: none;
+  }

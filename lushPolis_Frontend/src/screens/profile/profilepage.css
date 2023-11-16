@@ -1,0 +1,29 @@
+.leftsection {
+    max-height: 100vh; /* Set the maximum height to the viewport height */
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+  }
+
+  .rightsection{
+    padding:0;
+  }
+  .sec2{
+    padding-top:0 !important;
+  }
+.padno {
+    padding-bottom: 3rem !important;
+    margin-top:7rem;
+}
+  
+/* Hide scrollbar for all browsers */
+body::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+.leftsection::-webkit-scrollbar {
+    width: 0 !important;
+}
+body {
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
+  

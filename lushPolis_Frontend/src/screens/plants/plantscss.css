@@ -1,0 +1,187 @@
+/* App.css */
+
+.bgofapi{
+  background-image: url("../../assets/images/jamescameron.jpg");
+  background-repeat: repeat;
+  padding:10rem;
+  height:1500rem;
+  background-size: 20%;
+}
+.bgofapi111{
+background-image: url("../../assets/images/jamescameron.jpg");
+background-repeat: repeat;
+padding-top:4rem !important;
+padding:10rem;
+height:1500rem;
+background-size: 20%;
+}
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header Styles */
+  .Plantheader {
+    background-color: #21bf29;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .Plantheader h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Plantnavigation Styles */
+  .Plantnav {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .Plantnav-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .Plantnav-link {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  /* Add margin to the "Plant Identification" button */
+  .Plantnav-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #1f8b26;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-right: 10px; /* Add margin to separate the buttons */
+  }
+  
+  .Plantnav-button:hover {
+    background-color:#fff;
+    color: #2aa732;
+
+  }
+  
+  /* Main Content Styles */
+  .PlantApp {
+    padding: 8rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* App.css */
+/* 
+/* Style for the button */
+/* button {
+    background-color: #1f8b26;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  } */
+  
+  /* Change button background color on hover */
+  /* button:hover {
+    background-color: #2aa732;
+  } */
+   */
+  /* Style for the button when in the disabled state */
+  html {
+    --blue: #159ce4;
+    --lgt-blue: #67cff3;
+    --drk-blue: #147ec1;
+    --black: #32383c;
+  }
+  
+ a {
+    color: var(--blue);
+    transition: all 0.3s ease;
+  }
+  
+ a:hover {
+    color: var(--lgt-blue);
+  }
+  
+ a:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(21, 156, 228, 0.4);
+  }
+  
+ a:active {
+    color: var(--drk-blue);
+  }
+  
+  /* Add shadow and boundary to buttons when hovering */
+
+ /* button {
+  display: block;
+  padding: 12px 38px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: var(--blue);
+  background-color: #21bf24;
+  border: 2px solid var(--blue);
+  border-radius: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%; 
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+button:hover {
+  color: #52ab35;
+  background-color: var(--lgt-blue);
+  border-color: var(--lgt-blue);
+  transform: translateY(-2px); 
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); 
+} */
+
+
+
+.PlantApp button:active {
+  color: #fff;
+  background-color: var(--drk-blue);
+  border-color: var(--drk-blue);
+}
+
+.PlantApp button:focus {
+  outline: none;
+  box-shadow: 0 0 0 5px rgba(21, 156, 228, 0.4);
+}
+
+.PlantApp button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+/* Add responsiveness for smaller screens */
+@media (max-width: 768px) {
+  .PlantApp button {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+}
+
+  
+  /* Additional styles for your components can be added here */

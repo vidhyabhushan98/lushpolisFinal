@@ -1,0 +1,144 @@
+
+.align-items-center{
+    align-items: center !important;
+}
+
+.justify-content-center {
+    justify-content: center!important;
+}
+.justify-content-between {
+    justify-content: space-between!important;
+}
+
+.order-lg-1 {
+    order: 1!important;
+}
+.animates{
+    justify-content: center!important;
+}
+body{
+    margin-right: 1px;
+}
+
+.Navbar_navbar__OyRdm {
+    font-size: 19px;
+}
+
+.Header_description__HXj7d {
+    font-size: 20px;
+    padding: 1.2rem 0;
+}
+
+.Header_heading__CDDLz {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.Header_header__0EKlr div {
+    transition: .2s ease;
+}
+
+.d-flex {
+    display: flex!important;
+}
+
+.remaining{
+ margin-left: 50px !important;
+}
+
+.navbar-brand {
+    padding-top: var(--bs-navbar-brand-padding-y);
+    padding-bottom: var(--bs-navbar-brand-padding-y);
+    margin-right: var(--bs-navbar-brand-margin-end);
+    font-size: var(--bs-navbar-brand-font-size);
+    color: var(--bs-navbar-brand-color);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.Navbar_navbar__OyRdm {
+    background-color: #fafafa;
+    font-size: 22px;
+    color: #262626;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.Header_docsBtn__Cr1fx, .Header_pricingBtn__wDO4s {
+    width: 140px;
+    height: 46px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.Header_docsBtn__Cr1fx {
+    color: #30ad4c;
+    background-color: #f9f9f9;
+    border: 2px solid #30ad4c;
+    border-radius: 15px;
+}
+
+.Header_pricingBtn__wDO4s {
+    color: #f9f9f9;
+    background-color: #30ad4c;
+    border: 1px solid #30ad4c;
+    margin-right: 2rem;
+    border-radius: 15px;
+}
+
+.Header_header__0EKlr {
+    padding-top: 5rem;
+    height: auto;
+}
+
+
+@media (max-width: 991px){
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 100% !important;
+}
+.featurette-image{
+    width: 300px !important;
+    height: 300px !important;
+}
+}
+
+
+.rowfediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.marketing3 .col-lg-4 {
+    margin-bottom: 1.5rem;
+    margin-top:1.5rem;
+    padding:0 !important;
+    text-align: center;
+}
+
+@media (min-width: 992px){
+    .col-lg-6 {
+        flex: 0 0 auto;
+        width: 50% !important;
+    }
+}
+
+.mr-auto {
+    margin-right: auto !important;
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav {
+    -webkit-box-orient: horizontal !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+}
+}

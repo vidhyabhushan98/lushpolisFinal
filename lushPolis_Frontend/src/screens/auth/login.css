@@ -1,0 +1,667 @@
+
+p{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.SignupForm_placeholderError__eNt4r {
+    color: #ff0f0f;
+}
+.AuthPage_girl__RKM9T {
+    position: absolute;
+    bottom: 0;
+    right: 5rem;
+    width: 336px;
+    height: 445px;
+}
+.SignupForm_emailContainer__lD6_3 {
+    width: 480.5px;
+    height: 81px;
+    position: relative;
+    margin-bottom: 3.5rem;
+}
+.SignupForm_field__ZwjpX {
+    width: 480.5px;
+    height: 81px;
+    border-radius: 15px;
+    outline: none;
+    border: 2px solid #30ad4c;
+    font-size: 24px;
+    color: #000000de;
+    padding: 0 1.5rem;
+}
+.SignupForm_emailPlaceholder__VR2Du {
+    padding: 0 0.3rem;
+    font-size: 14px;
+    top : 0.65rem;
+    left:1rem;  
+    color: #30ad4bb9;
+}
+.px-0 {
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+.SignupForm_fields__kXO_5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.SignupForm_login__AGi42 {
+    transform: scale(.9);
+    position: relative;
+    width: 1190px;
+    height: 774px;
+    border-radius: 45px;
+    background-color: #fff;
+    margin-top: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.LoginForm_password__3Cv5F {
+    position: absolute;
+    left: 0;
+    top: 2rem;
+}
+.LoginForm_eyeBox__4urZH {
+    display: none;
+}
+.LoginForm_eye__ebxKK {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    background-image: url(../../assets/images/eye-slash.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 1.7rem;
+    top: 3.5rem;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.LoginForm_passPlaceholder__3pGxO {
+    padding: 0 0.3rem;
+    font-size: 14px;
+    top : 0.65rem;
+    left:1rem;  
+    color: #30ad4bb9;
+}
+.LoginForm_signupLink__ULpIj {
+    color: #30ad4c!important;
+    text-decoration: underline!important;
+}
+.LoginForm_signIn__loOpD {
+    width: 550.5px;
+    height: 81px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: #30ad4c;
+    color: #fff;
+    font-size: 30px;
+}
+.AuthPage_plant__4bP1x {
+    position: absolute;
+    top: -2rem;
+    right: 4%;
+    width: 126px;
+    height: 336px;
+}
+.LoginForm_email__OFBOC {
+    position: absolute;
+    left: 0;
+    top: 2rem;
+}
+.AuthPage_pot__hhXsI {
+    position: absolute;
+    left: 8%;
+    bottom: 0;
+    width: 307px;
+    height: 261px;
+}
+.LoginForm_emailPlaceholder__pdVWQ {
+    padding: 0 0.3rem;
+    font-size: 14px;
+    top : 0.65rem;
+    left:1rem;  
+    color: #30ad4bb9;
+}
+.LoginForm_emailContainer__17IOQ {
+    width: 550.5px;
+    height: 54px;
+    position: relative;
+    margin-top: -2rem;
+    margin-bottom: 4rem;
+}
+
+.AuthPage_loginPage__t4kBX {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../../assets/images/loginbackground.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.LoginForm_login__7MdLc {
+    transform: scale(.9);
+    position: relative;
+    width: 1190px;
+    height: 774px;
+    border-radius: 45px;
+    background-color: #fff;
+    margin-top: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.LoginForm_heading__ZCsj3 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #30ad4c;
+}
+.LoginForm_passContainer__FWDfD {
+    width: 550.5px;
+    height: 54px;
+    position: relative;
+    margin-top: -2.3rem;
+    margin-bottom: 3.5rem;
+}
+.LoginForm_field__3TllL {
+    width: 550.5px;
+    height: 81px;
+    border-radius: 15px;
+    outline: none;
+    border: 2px solid #30ad4c;
+    font-size: 24px;
+    color: #000000de;
+    padding: 0 1.5rem;
+}
+.LoginForm_google__89MW8 {
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.AuthPage_logo__xzyl_ {
+    position: absolute;
+    left: 4%;
+    top: 2rem;
+    width:10rem;
+    height: auto;
+}
+.LoginForm_emailContainer__17IOQ {
+    width: 550.5px;
+    height: 54px;
+    position: relative;
+    margin-top: -2rem;
+    margin-bottom: 4rem;
+}
+
+
+
+
+@media screen and (max-width: 1550px){
+    .AuthPage_loginPage__t4kBX {
+        background-size: 90% ;
+    }
+    .LoginForm_passPlaceholder__3pGxO {
+        font-size: 19px;
+        top: 2.7rem;
+        left: 1.2rem;
+    }
+    .SignupForm_emailPlaceholder__VR2Du {
+        font-size: 19px;
+        top: 2.7rem;
+        left: 1.2rem;
+    }
+    .SignupForm_field__ZwjpX {
+        width: 400px;
+        height: 65px;
+        border-radius: 12px;
+        font-size: 19px;
+        padding: 0 1.2rem;
+    }
+    .SignupForm_email__0hhEX {
+        top: 1.6rem;
+    }
+    .SignupForm_fields__kXO_5 {
+        margin-top: -1rem;
+        margin-bottom: 1.5rem;
+    }
+    .SignupForm_emailContainer__lD6_3 {
+        width: 400px;
+        height: 43.2px;
+        margin-bottom: 3.3rem;
+    }
+    .SignupForm_login__AGi42 {
+        width: 952px;
+        height: 620px;
+        border-radius: 36px;
+        margin-top: 3.6rem;
+    }
+    .LoginForm_eye__ebxKK {
+        width: 26.5px;
+        height: 26.5px;
+        right: 1.3rem;
+        top: 2.8rem;
+    }
+    .LoginForm_password__3Cv5F {
+        top: 1.6rem;
+    }
+    .AuthPage_girl__RKM9T {
+        right: 3%;
+        width: 269px;
+        height: 356px;
+    }
+    .AuthPage_plant__4bP1x {
+        right: 4%;
+        width: 100px;
+        height: 269px;
+    }
+    .AuthPage_pot__hhXsI {
+        left: 7%;
+        width: 245px;
+        height: 209px;
+    }
+    .LoginForm_signIn__loOpD {
+        width: 440px;
+        height: 65px;
+        border-radius: 12px;
+        font-size: 24px;
+    }
+    .LoginForm_passContainer__FWDfD {
+        width: 440px;
+        height: 43.2px;
+        margin-top: -1.8rem;
+        margin-bottom: 2.9rem;
+    }
+    .LoginForm_email__OFBOC {
+        top: 1.6rem;
+    }
+    .LoginForm_login__7MdLc {
+        width: 952px;
+        height: 620px;
+        border-radius: 36px;
+        margin-top: 3.6rem;
+    }
+    .LoginForm_heading__ZCsj3 {
+        font-size: 48px;
+    }
+    .LoginForm_field__3TllL {
+        width: 440px;
+        height: 65px;
+        border-radius: 12px;
+        font-size: 19px;
+        padding: 0 1.2rem;
+    }
+    .LoginForm_emailContainer__17IOQ {
+        width: 440px;
+        height: 43.2px;
+        margin-top: -1.5rem;
+        margin-bottom: 3.3rem;
+    }   
+    .LoginForm_googleIcon__vh5wi {
+        width: 43.2px;
+        height: 43.2px;
+        margin-right: 0.8rem;
+    }
+    .LoginForm_emailContainer__17IOQ {
+        width: 440px;
+        height: 43.2px;
+        margin-top: -1.5rem;
+        margin-bottom: 3.3rem;
+    }
+    .LoginForm_emailPlaceholder__pdVWQ {
+        font-size: 19px;
+        top: 2.7rem;
+        left: 1.2rem;
+    }
+}
+    
+    
+    @media screen and (max-width: 1250px){
+    
+    .AuthPage_loginPage__t4kBX {
+        background-size: 90%;
+    }
+    .LoginForm_password__3Cv5F {
+        top: 1.3rem;
+    }
+    .SignupForm_login__AGi42 {
+        width: 762px;
+        height: 496px;
+        border-radius: 29px;
+        margin-top: 1.5rem;
+    }
+    .SignupForm_field__ZwjpX {
+        width: 310px;
+        height: 52px;
+        border-radius: 9.6px;
+        font-size: 15px;
+        padding: 0 1rem;
+    }
+    .SignupForm_email__0hhEX {
+        top: 1.3rem;
+    }
+    .SignupForm_emailPlaceholder__VR2Du {   
+        top: 2.1rem;
+        left: 1rem;
+    }
+    .SignupForm_emailContainer__lD6_3 {
+        width: 352px;
+        height: 34.5px;
+        margin-bottom: 3rem;
+        left: 1.2rem;
+    }
+    .LoginForm_passPlaceholder__3pGxO {
+        font-size: 16px;
+        top: 2.2rem;
+        left: 1rem;
+    }
+    .LoginForm_eye__ebxKK {
+        width: 21px;
+        height: 21px;
+        right: 1rem;
+        top: 2.2rem;
+    }
+    .AuthPage_plant__4bP1x {
+        right: 4%;
+        width: 80px;
+        height: 215px;
+    }
+    .LoginForm_signIn__loOpD {
+        width: 352px;
+        height: 52px;
+        border-radius: 10px;
+        font-size: 19px;
+    }
+    .AuthPage_girl__RKM9T {
+        right: 7%;
+        width: 215px;
+        height: 285px;
+    }
+    .AuthPage_pot__hhXsI {
+        left: 7%;
+        width: 196px;
+        height: 167px;
+    }
+    .LoginForm_email__OFBOC {
+        top: 1.3rem;
+    }   
+    .LoginForm_passContainer__FWDfD {
+        width: 352px;
+        height: 34.5px;
+        margin-top: -1.6rem;
+        margin-bottom: 2.5rem;
+    }
+    .LoginForm_login__7MdLc {
+        width: 762px;
+        height: 496px;
+        border-radius: 29px;
+        margin-top: 1.5rem;
+    }
+    .LoginForm_heading__ZCsj3 {
+        font-size: 38.5px;
+    }
+    .LoginForm_field__3TllL {
+        width: 352px;
+        height: 52px;
+        border-radius: 9.6px;
+        font-size: 15px;
+        padding: 0 1rem;
+    }
+    .LoginForm_emailContainer__17IOQ {
+        width: 352px;
+        height: 34.5px;
+        margin-top: -1.2rem;
+        margin-bottom: 3rem;
+    }
+    .LoginForm_googleIcon__vh5wi {
+        width: 34.5px;
+        height: 34.5px;
+        margin-right: 0.7rem;
+    }
+    .LoginForm_emailContainer__17IOQ {
+        width: 352px;
+        height: 34.5px;
+        margin-top: -1.2rem;
+        margin-bottom: 3rem;
+    }   
+    .LoginForm_emailPlaceholder__pdVWQ {
+        font-size: 16px;
+        top: 2.1rem;
+        left: 1rem;
+    }
+    }
+    
+    @media screen and (max-width: 950px){
+    
+    .AuthPage_loginPage__t4kBX {
+        background-size: 90% !important;
+    }
+    .AuthPage_girl__RKM9T {
+        right: 5%;
+        width: 172px;
+        height: 228px;
+    }
+    .SignupForm_field__ZwjpX {
+        width: 380px;
+        height: 58px;
+        border-radius: 10.5px;
+        font-size: 17px;
+        padding: 0 1rem;
+    }
+    .SignupForm_email__0hhEX {
+        top: 1.3rem;
+    }   
+    .AuthPage_pot__hhXsI {
+        left: 5%;
+        width: 157px;
+        height: 134px;
+    }
+    .SignupForm_emailPlaceholder__VR2Du {
+        font-size: 16px;
+        top: 2.3rem;
+        left: 1rem;
+    }
+    .SignupForm_emailContainer__lD6_3 {
+        width: 380px;
+        height: 58px;
+        margin-top: 0;
+        margin-bottom: 2.5rem;
+        left: 0;
+    }
+    .SignupForm_fields__kXO_5 {
+        margin: 0 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .SignupForm_login__AGi42 {
+        height: 750px;
+        justify-content: center;
+        width: 80%;
+        margin-top: 0;
+    }
+    .LoginForm_login__7MdLc {
+        width: 80%;
+        height: 496px;
+        border-radius: 29px;
+        margin-top: 1rem;
+    }
+    .flex-lg-row {
+        flex-direction: row!important;
+    }
+    .AuthPage_plant__4bP1x {
+        right: 4%;
+        width: 64px;
+        height: 172px;
+    }
+    }
+    
+    @media screen and (max-width: 768px){
+    .AuthPage_loginPage__t4kBX {
+        background-size: 90% !important;
+        background-image: none !important;
+    }
+    .SignupForm_login__AGi42 {
+        height: auto;
+        justify-content: center;
+        width: 80%;
+        margin-top: 0;
+    }   
+    .SignupForm_fields__kXO_5 {
+        margin: 0 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .SignupForm_emailContainer__lD6_3 {
+        width: 380px;
+        height: 58px;
+        margin-top: 0;
+        margin-bottom: 2.5rem;
+    }
+    .SignupForm_emailPlaceholder__VR2Du {
+        font-size: 16px;
+        top: 2.3rem;
+        left: 1rem;
+    }
+    .LoginForm_passPlaceholder__3pGxO {
+        font-size: 16px;
+        top: 2.2rem;
+        left: 1rem;
+    }
+    .LoginForm_password__3Cv5F {
+        top: 1.3rem;
+    }
+    .SignupForm_field__ZwjpX {
+        width: 380px;
+        height: 58px;
+        border-radius: 10.5px;
+        font-size: 17px;
+        padding: 0 1rem;
+    }
+    .SignupForm_email__0hhEX {
+        top: 1.3rem;
+    }    
+    .LoginForm_email__OFBOC {
+        top: 1.3rem;
+    }
+    .AuthPage_plant__4bP1x {
+        display: none;
+        right: 4%;
+        width: 64px;
+        height: 172px;
+    }
+    .AuthPage_girl__RKM9T {
+        display: none;
+        right: 5%;
+        width: 172px;
+        height: 228px;
+    }
+    .AuthPage_pot__hhXsI {
+        display: none;
+        left: 5%;
+        width: 157px;
+        height: 134px;
+    }
+    .LoginForm_signIn__loOpD {
+        width: 380px;
+        height: 52px;
+        border-radius: 10px;
+        font-size: 19px;
+        margin-bottom: 1rem;
+    }
+    .LoginForm_eye__ebxKK {
+        width: 21px;
+        height: 21px;
+        right: 1rem;
+        top: 2.2rem;
+    }
+    .LoginForm_login__7MdLc {
+        height: 750px;
+        justify-content: center;
+        width: 80%;
+        margin-top: 0;
+    }
+    .LoginForm_heading__ZCsj3 {
+        font-size: 35px;
+    }
+    .LoginForm_google__89MW8 {
+        margin-bottom: 0.6rem;
+    }
+    .LoginForm_field__3TllL {
+        width: 380px;
+        height: 58px;
+        border-radius: 10.5px;
+        font-size: 17px;
+        padding: 0 1rem;
+    }
+    .LoginForm_emailContainer__17IOQ {
+        width: 380px;
+        height: 58px;
+        margin-top: 0;
+        margin-bottom: 3.5rem;
+    }
+    .LoginForm_googleIcon__vh5wi {
+        width: 38px;
+        height: 38px;
+        margin-right: 0.8rem;
+    }    
+    .LoginForm_emailContainer__17IOQ {
+        width: 380px;
+        height: 58px;
+        margin-top: 0;
+        margin-bottom: 3.5rem;
+    }
+    LoginForm_emailPlaceholder__pdVWQ {
+        font-size: 16px;
+        top: 2.3rem;
+        left: 1rem;
+    }
+    .LoginForm_passContainer__FWDfD {
+        width: 380px;
+        height: 58px;
+        margin-top: -1.6rem;
+        margin-bottom: 3.1rem;
+    }
+    }
+    
+    
+    @media screen and (max-width: 700px){
+    .AuthPage_loginPage__t4kBX {
+        background-size: 90% !important;
+    }
+    .AuthPage_plant__4bP1x {
+        right: 4%;
+        width: 45px;
+        height: 120px;
+    }
+    .AuthPage_girl__RKM9T {
+        right: 5%;
+        width: 120px;
+        height: 160px;
+    }
+    .AuthPage_pot__hhXsI {
+        left: 5%;
+        width: 110px;
+        height: 94px;
+    }
+}
+
+@media  (max-width: 530px) {
+    .LoginForm_login__7MdLc {
+        width: 98%;
+        height: 496px;
+        border-radius: 29px;
+        margin-top: -2rem;
+    }
+}
+
+.row2{
+    flex-wrap:wrap;
+}
