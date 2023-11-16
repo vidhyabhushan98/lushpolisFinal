@@ -1,3 +1,3 @@
-const baseUrl = 'https://lushpolis-backend.onrender.com';
+const baseUrl = 'https://lushpolis-backend-gb77.onrender.com';
 
 export default baseUrl;
