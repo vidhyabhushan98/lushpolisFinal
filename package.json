@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "install-server": "cd lushpolis_Backend && npm install",
-    "start-server": "cd lushpolis_Backend && node app.js",
+    "start-server": "cd lushpolis_Backend && npm run dev",
     "install-client": "cd lushpolis_Frontend && npm install --force",
     "build-client": "cd lushpolis_Frontend && npm run build",
-    "start-client": "cd lushpolis_Frontend && npm run start",
+    "start-client": "cd lushpolis_Frontend && npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
